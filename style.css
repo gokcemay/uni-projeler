@@ -1,0 +1,105 @@
+/* Genel stil */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  background-color: #f5f5f5;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+header {
+  background-color: #2c3e50;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+header .logo {
+  max-width: 50px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
+
+/* Navigasyon */
+nav {
+  background-color: #34495e;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding: 15px 20px;
+  display: block;
+}
+
+nav a:hover {
+  background-color: #3d566e;
+}
+
+/* Container */
+.container {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+/* Bölüm (Section) */
+section {
+  background: #fff;
+  padding: 20px;
+  margin-bottom: 40px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+section h2 {
+  border-bottom: 2px solid #e67e22;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+section h3 {
+  color: #e67e22;
+  margin-top: 0;
+}
+
+section ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+section ul li {
+  margin: 8px 0;
+}
+
+section a {
+  color: #e67e22;
+  text-decoration: none;
+}
+
+section a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #2c3e50;
+  color: #fff;
+}
+
+/* Responsive Tasarım */
+@media screen and (max-width: 600px) {
+  nav a {
+    padding: 10px;
+    font-size: 14px;
+  }
+}
